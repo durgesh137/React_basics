@@ -7,9 +7,10 @@ import Header from "./components/Header"
 function App(){
     return  (
         //remember one parent element only allowed
-        //wrapping everything within a fragement and header should be first 
+        //wrapping everything within a fragement and header should be first , <Header text='Hello World'/>
+        //or <Header /> any text props not passed
         <>
-            <Header/>
+            <Header text={123}/>            
             <div className="container">
                 <h1>My App</h1>
             </div>
