@@ -14,3 +14,7 @@ In index.js, react and react-dom imported, further render function is used to sh
 # Working with App component
 1. App.js created, using function to work with components.
 2. imported in index.js, data supplied in xml syntax id ie., main app component within render function, and result shown over the webpage
+
+# Applying strict mode, styling by using global css, index.css
+=> performing few initial checks over the App using the strict mode
+=> Applying css, index.css, making body data invisible.
