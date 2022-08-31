@@ -22,6 +22,12 @@ In index.js, react and react-dom imported, further render function is used to sh
 # showing dynamic data like text, array using jsx
 1. nesting result within div in app.js
 2. providing unique key to each li to remove warning: Each child in a list should have a unique "key" prop
-3. In arrow function, return keyword is implicit, but here return is used.
+3. Each element in jsx version should be placed within one parent element.
+4. In arrow function, return keyword is implicit, but here return is used.
 
 # working with jsx conditionals done...
+restored to normal state for creating feedback application
+
+# creating first Component
+1. create components folder within src folder to hold all the jsx files which are created.
+2. Header.jsx, .js component can also be used.
