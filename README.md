@@ -23,3 +23,5 @@ In index.js, react and react-dom imported, further render function is used to sh
 1. nesting result within div in app.js
 2. providing unique key to each li to remove warning: Each child in a list should have a unique "key" prop
 3. In arrow function, return keyword is implicit, but here return is used.
+
+# working with jsx conditionals done...
