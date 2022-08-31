@@ -16,5 +16,10 @@ In index.js, react and react-dom imported, further render function is used to sh
 2. imported in index.js, data supplied in xml syntax id ie., main app component within render function, and result shown over the webpage
 
 # Applying strict mode, styling by using global css, index.css
-=> performing few initial checks over the App using the strict mode
-=> Applying css, index.css, making body data invisible.
+1. performing few initial checks over the App using the strict mode
+2. Applying css, index.css, making body data invisible.
+
+# showing dynamic data like text, array using jsx
+1. nesting result within div in app.js
+2. providing unique key to each li to remove warning: Each child in a list should have a unique "key" prop
+3. In arrow function, return keyword is implicit, but here return is used.
