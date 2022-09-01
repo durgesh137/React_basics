@@ -41,3 +41,11 @@ restored to normal state for creating feedback application
 6. If other data type is supplied to props after setting the props type, warning would occur.
 7. For example, react-jsx-dev-runtime.development.js:87 Warning: Failed prop type: Invalid prop `text` of type `number` supplied to `Header`, expected `string`.
 8. Typically propsTypes are not used, TypeScript is used if any specific requirement comes normally.
+
+# Adding Styles to a component
+1. For any css having hyphen between it, use it in camelCase.
+2. For example, background-color should be used as backgroundColor, defined as css is js.
+3. Passing bgColor and textColor as props to header component
+4. Applying desctructuring on props variables, using{} in Header function.
+5. Defining defaultProps for bgColor and textColor in case the color values are not provided from the App.js
+
