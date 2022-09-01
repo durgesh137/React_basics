@@ -49,3 +49,13 @@ restored to normal state for creating feedback application
 4. Applying desctructuring on props variables, using{} in Header function.
 5. Defining defaultProps for bgColor and textColor in case the color values are not provided from the App.js
 
+# State and useState Hook
+1. State is basically data
+2. 2 types, component level state and app level state, called global states.
+3. Component level state is the data which is associated only with that one component. Example - Navigation having open and closed state.
+4. Feedback items are the example for global component, which needs to used or accessed across multiple components.
+5. The state is set within the component with special hook called useState
+6. Hooks always start with use keyword
+7. components can be checked by selecting components in react dev tools extension.
+8. State in react is immutable, that means, it can't be directly changed, rather it needs to be set.
+9. buttons are added to understand how to track previous rating and update it on click.
