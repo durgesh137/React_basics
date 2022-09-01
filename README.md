@@ -59,3 +59,4 @@ restored to normal state for creating feedback application
 7. components can be checked by selecting components in react dev tools extension.
 8. State in react is immutable, that means, it can't be directly changed, rather it needs to be set.
 9. buttons are added to understand how to track previous rating and update it on click.
+10. Feedback rating and text will come from app or global level state and will be passed as the prop.
